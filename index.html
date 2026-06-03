@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Birthmark helps you remember birthdays, anniversaries, and special moments.">
+    <title>Birthmark - Never miss a reason to celebrate.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Style+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navigation container" aria-label="Main navigation">
+            <a class="brand" href="#top" aria-label="Birthmark home">
+                <img class="brand-logo" src="assets/logo.png" alt="Birthmark logo">
+                <span class="brand-name">Birthmark</span>
+            </a>
+
+            <button class="menu-button" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="navigation-links" data-navigation-links>
+                <a href="#features">Features</a>
+                <a href="#screenshots">Screenshots</a>
+                <a href="privacy_policy.html">Privacy Policy</a>
+                <a href="tos.html">Terms of Service</a>
+                <a class="app-store-button small" href="#" aria-label="Download Birthmark on the App Store">
+                    <span class="apple-icon"></span>
+                    <span>Download on the App Store</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-copy">
+                    <img class="hero-logo" src="assets/logo.png" alt="Birthmark logo">
+                    <h1>Birthmark</h1>
+                    <p class="hero-tagline">Never miss a reason to celebrate.</p>
+                    <p class="hero-description">
+                        Birthmark helps you remember the important dates in life.
+                        Birthdays, anniversaries, and special moments — all in one beautifully simple app.
+                    </p>
+                    <a class="app-store-button" href="#" aria-label="Download Birthmark on the App Store">
+                        <span class="apple-icon"></span>
+                        <span>Download on the App Store</span>
+                    </a>
+                </div>
+
+                <div class="phone-showcase" id="screenshots" aria-label="Birthmark app preview">
+                    <div class="phone phone-primary">
+                        <div class="phone-top"></div>
+                        <div class="phone-screen">
+                            <div class="status-row">
+                                <span>9:47</span>
+                                <span>•••</span>
+                            </div>
+                            <p class="screen-eyebrow">Upcoming</p>
+                            <h2>Next 7 Days</h2>
+
+                            <div class="event-list">
+                                <article class="event-card">
+                                    <div class="avatar avatar-one">J</div>
+                                    <div>
+                                        <strong>James Smith</strong>
+                                        <span>Tomorrow</span>
+                                    </div>
+                                    <time>24<br><small>May</small></time>
+                                </article>
+                                <article class="event-card">
+                                    <div class="avatar avatar-two">O</div>
+                                    <div>
+                                        <strong>Olivia Brown</strong>
+                                        <span>In 3 days</span>
+                                    </div>
+                                    <time>26<br><small>May</small></time>
+                                </article>
+                                <article class="event-card">
+                                    <div class="avatar avatar-three">M</div>
+                                    <div>
+                                        <strong>Mom</strong>
+                                        <span>In 5 days</span>
+                                    </div>
+                                    <time>28<br><small>May</small></time>
+                                </article>
+                                <article class="event-card">
+                                    <div class="avatar avatar-four">♥</div>
+                                    <div>
+                                        <strong>Anna &amp; Tom</strong>
+                                        <span>Anniversary</span>
+                                    </div>
+                                    <time>31<br><small>May</small></time>
+                                </article>
+                            </div>
+
+                            <div class="tab-bar">
+                                <span class="active">Upcoming</span>
+                                <span>Calendar</span>
+                                <button type="button" aria-label="Add event">+</button>
+                                <span>People</span>
+                                <span>Settings</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="phone phone-secondary">
+                        <div class="phone-top"></div>
+                        <div class="phone-screen profile-screen">
+                            <div class="status-row">
+                                <span>9:47</span>
+                                <span>•••</span>
+                            </div>
+                            <div class="profile-actions">
+                                <span>‹ Back</span>
+                                <span>Edit</span>
+                            </div>
+                            <div class="profile-avatar">O</div>
+                            <h2>Olivia Brown</h2>
+                            <p>May 26</p>
+                            <p>In 3 days</p>
+                            <div class="quick-actions">
+                                <span>Call</span>
+                                <span>Message</span>
+                                <span>Gift</span>
+                                <span>More</span>
+                            </div>
+                            <div class="notes-card">
+                                <strong>Notes</strong>
+                                <p>She loves sunset and chocolate cake! 🧡</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section" id="features">
+            <div class="container features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">▣</div>
+                    <h3>Never Forget</h3>
+                    <p>Keep track of birthdays, anniversaries, and special events.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">♁</div>
+                    <h3>All in One Place</h3>
+                    <p>Store important dates, notes, and people in one beautiful timeline.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">◉</div>
+                    <h3>Timely Reminders</h3>
+                    <p>Get reminders so you are always on time for the people who matter.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">♥</div>
+                    <h3>Made with Care</h3>
+                    <p>Built with love to help you celebrate life’s most important moments.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <img class="footer-logo" src="assets/logo.png" alt="Birthmark logo">
+                <p>Birthmark is an independent app made with heart to help you celebrate life’s most important moments.</p>
+            </div>
+
+            <div>
+                <h2>Links</h2>
+                <a href="privacy_policy.html">Privacy Policy</a>
+                <a href="tos.html">Terms of Service</a>
+                <a href="mailto:wegorzx.dev@gmail.com">Support</a>
+            </div>
+
+            <div>
+                <h2>Contact</h2>
+                <p>Email</p>
+                <a class="accent-link" href="mailto:wegorzx.dev@gmail.com">wegorzx.dev@gmail.com</a>
+            </div>
+        </div>
+
+        <div class="container copyright">
+            <p>© 2026 Birthmark. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

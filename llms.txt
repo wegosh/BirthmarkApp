@@ -1,0 +1,13 @@
+# Birthmark
+
+Birthmark is an iOS application for remembering birthdays and anniversaries.
+
+## Pages
+
+- https://birthmark.app
+- https://birthmark.app/privacy_policy.html
+- https://birthmark.app/tos.html
+
+## Contact
+
+support@birthmark.app
